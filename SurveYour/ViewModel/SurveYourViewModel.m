@@ -8,6 +8,16 @@
 
 #import "SurveYourViewModel.h"
 
+static SurveYourViewModel *privateRef = nil;
+
 @implementation SurveYourViewModel
+
++(SurveYourViewModel *) GetSharedViewModel{
+    if(privateRef == nil){
+        privateRef = [[SurveYourViewModel alloc]init];
+        
+    }
+    return privateRef;
+}
 
 @end

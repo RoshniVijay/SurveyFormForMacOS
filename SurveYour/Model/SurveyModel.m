@@ -9,5 +9,10 @@
 #import "SurveyModel.h"
 
 @implementation SurveyModel
+@synthesize name;
+@synthesize age;
+
+
+
 
 @end

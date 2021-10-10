@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol DataStoreProtocol <NSObject>
 
+-(NSArray*) StoreNewSurvey;
+-(NSArray*) GetAllSurveys;
+-(NSArray*) GetSurveyForID:(int) id;
+
 @end
 
 NS_ASSUME_NONNULL_END

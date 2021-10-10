@@ -7,8 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "SurveYourViewModel.h"
 
-@interface MainViewController : NSViewController
+@interface MainViewController : NSViewController{
+    SurveYourViewModel *surveYourViewModel;
+}
+@property (weak) IBOutlet NSClipView *UpdateSurveyForms;
 
 
 @end

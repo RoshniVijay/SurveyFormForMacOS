@@ -8,10 +8,6 @@
 
 #import "SurveyFormViewController.h"
 
-@interface SurveyFormViewController ()
-
-@end
-
 @implementation SurveyFormViewController
 
 - (void)viewDidLoad {

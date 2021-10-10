@@ -6,8 +6,12 @@
 //  Copyright © 2021 roshnivijay. All rights reserved.
 //
 
-#import "DataModelController.h"
+#import "DataModelFactory.h"
 
-@implementation DataModelController
+@implementation DataModelFactory
+
+-(PlistStoreController*) CreateDataStoreController{
+    return nil;
+}
 
 @end

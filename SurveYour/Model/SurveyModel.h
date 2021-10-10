@@ -11,7 +11,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SurveyModel : NSObject
+@property (strong, nonatomic)    NSString* name;
+@property (strong, nonatomic)    NSString* age;
+   // NSString* name;
+  //  NSString* name;
 
 @end
+
 
 NS_ASSUME_NONNULL_END

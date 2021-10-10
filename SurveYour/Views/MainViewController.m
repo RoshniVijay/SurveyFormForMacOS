@@ -14,6 +14,9 @@
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+    //[surveYourViewModel GetSharedViewModel];
+    
+    
 }
 
 
@@ -21,6 +24,7 @@
     [super setRepresentedObject:representedObject];
 
     // Update the view, if already loaded.
+    
 }
 
 
